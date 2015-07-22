@@ -1,0 +1,647 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #3C3C3B;
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width:768px) {
+
+
+.navbar {
+    top:0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 2em;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #fff;
+}
+
+.navbar li {
+    display: inline-block;
+}
+    
+.navbar li a {
+
+    font-size: 0.7em !important;
+    text-decoration: none;
+    position: relative;
+    bottom: 0.1em;
+
+}
+
+.navbar li img {
+    height: 40px !important;
+}
+    
+    
+.navbar ul li {
+    width: 33%;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #3C3C3B;
+    font-weight: 300;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+p {
+ margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    font-size: 1.3em;
+    font-weight: 300;
+
+}
+
+    
+main{
+	text-align: center;
+
+}
+
+#main {
+    margin-top: 0em;
+
+}
+
+.imgsocial img{
+	width: 100%;
+	height: auto;
+}
+
+article{
+	min-height: 5em;
+    padding-top: 4em;
+    padding-bottom: 4emx;
+}
+
+.big-btn-green {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center !important;
+    background-color: #00ffc8;
+    padding: 0.6em 1.5em 0.6em 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0.5em;
+    display: inline-block;
+    border: none;
+}
+    
+.big-btn-green:hover {
+    background-color: #00DFAC;
+}
+
+.fleche-bas {
+    text-decoration: none;
+    color:#00ffc8;
+    font-size: 3em;
+
+}
+
+.img-responsive {
+    max-width: 100%;
+	height: auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.vert {
+    color: #00ffc8;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.big-number {
+    font-size:9em;
+}
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#voie-admin i {
+    color: #00ffc8;
+    font-size: 20em;
+    
+}
+
+#voie-admin i:hover {
+    color:#00DFAC;
+}
+
+.mid-width {
+    width: 50%;
+}
+
+#voie-admin {
+  margin-top: 9.5em;
+    margin-bottom: 3.5em;
+}
+
+#voie-admin p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+
+
+
+input {
+    border: 2px solid #00ffc8;
+    margin-bottom: 0.5em;
+    font-weight: 300 !important;
+    font-size : 1.5em !important;
+    font-style: italic;
+    padding-top: 0.2em;
+    padding-left:0.5em;
+    padding-bottom: 0.2em;
+    margin-right: 0em;
+    display: block;
+  width: 100%;
+  min-height: 15px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3C3C3B;
+    font-size: 40%;
+}
+
+footer .mention{
+	font-size: 100%;
+}
+
+.list-social {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.list-social li {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.list-social i {
+    color: #3C3C3B;
+    font-size: 8em;
+    padding-bottom: 0em;
+    margin-bottom: 0.2em;
+}
+
+.list-social i:hover {
+    color: #00ffc8;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top:60;
+    /*display: none;*/
+}
+
+#secret, #posologie, #substances, #action, #voie, #effets, #prescription {
+    padding-top:8em;
+}
+    
+#contact {
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+
+#substances.hidden-mobile {
+    
+    padding-top: 5em;
+}
+    
+#posologie {
+    padding-bottom: 10em;
+}
+
+.navbar ul li {
+    color: #00ffc8;
+    font-size: 4em;
+}
+
+.menu ul li a {
+    font-size: 3em;   
+}
+
+#home{
+    margin-top: 0em;
+    padding-top: 8em;
+
+}
+
+#profil, #theme, #consultation, #inscription, #compte {
+    margin-top: 16em;
+    text-align:center;
+}
+
+#sidebar-wrapper ul {
+margin-top: 4.5em;
+margin-left: 1.3em;
+}
+
+
+#sidebar-wrapper {
+    background-color: #3C3C3B !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#sidebar-wrapper a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sidebar-wrapper a:hover {
+ color: #00ffc8;
+    font-weight: 400;
+}
+    
+#sidebar-wrapper li {
+margin-bottom: 1.5em;
+}
+
+
+
+.big-text {
+    font-size:2.5em;
+}
+
+.wrap form input {
+    width: 100% !important;
+}
+
+.wrap {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+
+}
+
+.input-grp {
+    padding-right: 1em;
+}
+
+.hidden {
+display: none;
+}
+
+#theme, #consultation {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+.theme-list form p {
+    text-align: left;
+    font-size:3em;
+    font-weight: normal;
+}
+.theme-list {
+    margin-bottom: 3em;   
+}
+
+.theme-list form input {
+    margin: 0;
+    display: inline;
+    width:0.6em;
+
+}
+
+footer p {
+    font-size:1em;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.form-heures .label {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-heures input {
+    border: none;
+    text-align: left;
+    font-style: normal;
+}
+
+.form-heures {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#compte h2 {
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #666;
+    font-size: 5em;
+}
+
+#compte li {
+list-style:none;
+padding-top: 4em;
+padding-bottom: 4em;
+    border-bottom: 1px solid #aaa;
+    
+}
+
+#compte li a {
+text-decoration: none;
+font-size: 3em;
+    color: #3C3C3B;
+    width: 100%;
+    display: inline-block;
+}
+
+#compte li a .mdi {
+    color: #00ffc8;
+
+}
+
+#footer-nav {
+
+    bottom:0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1031;
+    min-height: 6em;
+    padding-top:3em;
+    padding-bottom: 3em;
+    background-color: #fff;
+
+}
+
+#footer-nav li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#footer-nav a {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#footer-nav a:active {
+    color: #00ffc8;
+}
+
+#footer-nav .mdi {
+    font-size: 3.5em;
+    padding-bottom: 0.3em;
+}
+
+
+.footer-social a {
+    font-size:1.5em;
+    text-decoration: none;
+    color: #3C3C3B;
+    
+}
+
+.connexion {
+    display: none;
+}
+
+.connexion-desktop {
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.4em !important;
+    text-align: center !important;
+    background-color: #00ffc8;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.connexion-desktop:hover {
+        background-color: #00DFAC;
+}
+    
+.sidebar-brand a .mdi:hover {
+color: #00DFAC;
+}
+
+
+
+#discover {
+    margin-top:3em;
+    margin-bottom:0em
+}
+.logo-secret {
+    margin-top:0em;
+    margin-bottom:1em;
+    width: 300px;
+}
+
+
+.hidden-desktop {
+ display: none;
+}
+    
+#secret_title {
+    font-size: 2em;
+    line-height: 140%;
+}
+
+
+.img-main {
+    display: none;
+}
+
+.illu-responsive {
+    display: inline-block;
+    width: 460px;
+}
+
+#bloc-gris {
+  background-color:#eee;
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 2.3em;
+    margin-bottom: 2.3em;
+    margin-left: 7em;
+    margin-right: 7em;
+
+}
+
+    
+.footer-gris {
+  background-color:#eee;
+  float: none;
+  width: 100%;
+
+}
+
+.substances-img {
+    width: 100%;
+     margin-bottom: 3em !important;
+}
+
+
+.img-bloc {
+    text-align: right;
+}
+.img-bloc img {
+    padding-right: 5em;
+	padding-top: 2em;
+	width: 70%;
+	height: auto;
+}
+
+.text-bloc {
+    text-align:left;
+}
+.text-bloc>div {
+        padding-left: 2em;
+        padding-top: 7em;
+}
+    
+    
+#posologie.hidden-mobile hr {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+}
+    
+#posologie.hidden-mobile .img-bloc>div {
+padding-right: 2em;
+}   
+    
+    
+.pill-img {
+    width: 50px;
+    padding-right: 0em !important;
+}
+
+
+#posologie.hidden-mobile .haut {
+    
+    position: relative;
+    bottom: 2em;
+}
+
+
+
+.horloge-home {
+    width: 100px;
+    padding-right: 1em !important;
+}
+    
+    
+.img-pubard {
+    width: 500Px;
+}
+    
+    
+    
+#voie.hidden-mobile .mdi {
+    font-size: 8em;
+}
+    
+#voie.hidden-mobile .img-bloc {
+    text-align: center;
+        
+    }
+    
+#voie.hidden-mobile .img-bloc p {
+
+    font-size: 1.5em;
+}
+#voie.hidden-mobile .text-bloc {
+    margin-top: 2em;
+    
+}
+
+.warning-img {
+        width: 300px;
+}
+    
+#effets.hidden-mobile .text-bloc {
+    margin-top: 2em;
+    
+}  
+    
+    
+#prescription {
+    padding-top: 0em;
+}
+
+
+.quote-top, .quote-bottom  {
+    margin-top:1em;
+    margin-bottom:1em;
+    width: 50px;
+}
+
+.thanks {
+    font-size:3em !important;
+}
+
+}

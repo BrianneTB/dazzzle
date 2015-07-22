@@ -1,0 +1,279 @@
+/*bleu #00ffc8
+beige #f0f1ee */
+html{
+	margin: 10px;
+}
+body{
+	margin:auto;
+	width: 100%;
+	background-color: #eeeeee;
+	font-family: 'Raleway', Sans-serif;
+}
+
+/*-----------HEADER-------------*/
+
+header{
+	background-color: #eeeeee;
+	position: relative;
+}
+
+header nav ul #deco{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 14px;
+	padding-right: 14px;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+
+header nav ul{
+	padding-top: 15px;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+
+}
+
+header nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 10px;
+	list-style: none;
+}
+
+header nav a:hover{
+	color: #00ffc8;
+}
+header nav ul li.active a{
+	color: #00ffc8;
+} 
+header #header{
+	padding-top: 20px;
+	font-style: normal;
+}
+
+header h1 a{
+	font-size: 28px;
+	font-family: 'Adobe Garamond Pro', Serif;
+	text-decoration: none;
+	text-align: center;
+	color: #00ffc8;
+}
+
+header nav{
+	margin: auto;
+	height: 50px;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+
+
+/*----------- FIN HEADER-------------*/
+
+/*-----------SOUS NAV-------------*/
+
+#sousnav li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Raleway', Sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 10px;
+
+}
+
+#nav li ul{
+	display: none;
+}
+
+#sousnav{
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
+	margin: auto;
+	background-color: #d9dad7;
+}
+
+#sousnav ul li{
+	display: inline;
+}
+
+#sousnav ul li.activ a{
+	color: #00ffc8;
+} 
+
+/*-----------FIN SOUS NAV-------------*/
+
+/*-----------NAV CLASSIQUE-------------*/
+body div a:hover{
+	color: #c42490;
+	text-decoration: underline;
+}
+
+body a{
+	text-decoration: none;
+	color: #00ffc8;
+}
+
+/*-----------FIN NAV CLASSIQUE-------------*/
+
+/*-----------FOOTER-------------*/
+
+footer{
+	text-align: center;
+	background-color: black;
+	height: 40px;
+	opacity: 0.7;
+	margin-bottom: 10px;
+}
+
+footer p{
+	color: white;
+	padding-top: 11px;
+}
+
+/*-----------FIN FOOTER-------------*/
+
+/*-----------SECTION ET DIV-------------*/
+section{
+	margin: auto;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+div h2{
+	padding: 10px;
+	text-align: center;
+	font-family: 'Raleway', Sans-serif;
+}
+div>a{
+	margin: auto;
+	font-size: 18px;
+	padding: 10px;
+}
+
+/*-----------FIN SECTION ET DIV-------------*/
+
+/*-----------TABLEAUX-------------*/
+
+section div{
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table{
+	margin: auto;
+}
+
+td{
+	border: 2px dotted #00ffc8;
+	padding: 8px;
+	text-align: center;
+}
+
+th{
+	border: 2px dotted #00ffc8;
+}
+/*-----------FIN TABLEAUX-------------*/
+
+/*-----------FORMULAIRE-------------*/
+
+form {
+	padding: 10px;
+	text-align: center;
+}
+
+form>p{
+	padding-bottom: 20px;
+}
+
+input{
+	margin-bottom:20px; 
+	font-family: 'Raleway', Sans-serif;
+	width: 220px;
+	height: 27px;
+
+}
+textarea{
+	width: 400px;
+	height: 200px;
+	margin-bottom: 20px;
+	font-family: 'Raleway', Sans-serif;
+
+}
+
+input[type="submit"]{
+	font-family: 'Raleway', Sans-serif; 
+	text-transform: uppercase; 
+	color: #fff; 
+	background: #00ffc8; 
+	margin-top: 15px; 
+	font-size: 14px; 
+	border:none;
+	height: 35px;
+	width: 150px;
+}
+
+.home{
+	width: 150px;
+}
+
+/*-----------FIN FORMULAIRE-------------*/
+
+section h2{
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+h1{
+	font-style: italic;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+section a:first-of-type{
+	font-size: 18px;
+	padding: 10px;
+}
+
+section a:first-of-type:hover{
+	color: #000;
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+ section div img{
+ 	max-width: 140px;
+ }
+
+ section div #imgpres{
+ 	max-width: 800px;
+ }
+
+ section div #imgequipe{
+ 	max-width: 800px;
+ }
+
+ section div #slider{
+ 	max-width: 600px;
+ }
+
+ h3{
+ 	padding: 10px;
+
+ }
+
+
+
+
+
+
